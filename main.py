@@ -3,6 +3,7 @@ import pytest
 
 def always_returns_true():
     print("This will always return True")
+    print("This might return True")
     return True
 
 
